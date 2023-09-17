@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 6rem;
+  border-bottom: 1px solid #383838ff;
+}
+
+h1 {
+  width: fit-content;
+  height: fit-content;
+
+  font-size: 2.4rem;
+}

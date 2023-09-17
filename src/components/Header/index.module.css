@@ -1,9 +1,9 @@
 header {
   display: flex;
-  justify-content: center;
   align-items: center;
   width: inherit;
-  height: 6rem;
+  height: 6.4rem;
+  padding: 1.2rem 1.2rem 1.2rem 3.2rem;
   border-bottom: 1px solid #383838ff;
 }
 

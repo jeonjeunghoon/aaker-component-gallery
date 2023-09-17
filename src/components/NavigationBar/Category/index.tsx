@@ -11,7 +11,7 @@ interface Props extends PropsWithChildren {
 export default function Category({ name, children }: Props) {
   return (
     <Container>
-      <h2>{name}</h2>
+      <p>{name}</p>
       <Container>{children}</Container>
     </Container>
   );

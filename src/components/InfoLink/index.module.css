@@ -1,5 +1,8 @@
 .info-anchor {
   display: inline;
   margin-left: 0.4rem;
+
+  font-size: 1.6rem;
+  color: #006400ff;
   cursor: pointer;
 }

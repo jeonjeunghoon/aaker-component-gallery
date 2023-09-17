@@ -8,13 +8,15 @@ export default function NavigationBar() {
       <Category name='Layout'>
         <ul>
           <li>
-            <NavigationLink path='/container'>Container</NavigationLink>
+            <NavigationLink path='component/layout/container'>
+              Container
+            </NavigationLink>
           </li>
           <li>
-            <NavigationLink path='/grid'>Grid</NavigationLink>
+            <NavigationLink path='component/layout/grid'>Grid</NavigationLink>
           </li>
           <li>
-            <NavigationLink path='/flex'>Flex</NavigationLink>
+            <NavigationLink path='component/layout/flex'>Flex</NavigationLink>
           </li>
         </ul>
       </Category>

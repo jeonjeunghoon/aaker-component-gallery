@@ -1,0 +1,9 @@
+.container-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-page-title {
+  font-size: 3.6rem;
+}

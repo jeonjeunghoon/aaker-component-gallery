@@ -1,10 +1,12 @@
+import styles from "./index.module.css";
+
 import Category from "./Category";
-import "./index.module.css";
+
 import NavigationLink from "./NavigationLink";
 
 export default function NavigationBar() {
   return (
-    <nav>
+    <nav className={styles["navigation-bar"]}>
       <Category name='Layout'>
         <ul>
           <li>

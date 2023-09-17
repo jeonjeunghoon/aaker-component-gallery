@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-import "./index.module.css";
+import styles from "./index.module.css";
 
 import { Container } from "react-aaker-layout-components";
 
@@ -11,7 +11,7 @@ interface Props extends PropsWithChildren {
 export default function Category({ name, children }: Props) {
   return (
     <Container>
-      <p>{name}</p>
+      <p className={styles["category-name"]}>{name}</p>
       <Container>{children}</Container>
     </Container>
   );

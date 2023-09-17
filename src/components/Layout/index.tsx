@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-import "./index.module.css";
+import styles from "./index.module.css";
 
 import { Container, Flex } from "react-aaker-layout-components";
 import Header from "../Header";
@@ -14,7 +14,7 @@ export default function Layout({ children }: Props) {
       <Header />
       <Flex height='calc(100vh - 6rem)'>
         <NavigationBar />
-        <main>{children}</main>
+        <main className={styles["main-contents"]}>{children}</main>
       </Flex>
     </Container>
   );
